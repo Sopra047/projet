@@ -6,7 +6,7 @@ COPY requirements.txt /requirements.txt
 
 RUN cd /
 RUN pip install -U pip && pip3 install -U -r requirements.txt
-WORKDIR /AutoFilter
+WORKDIR /app
 
 COPY . .
 
